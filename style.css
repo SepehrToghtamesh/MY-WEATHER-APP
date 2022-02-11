@@ -1,0 +1,122 @@
+body {
+    font-family: arial, sans-serif;
+}
+
+h1 {
+    color: #7c7c7c;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 28px;
+    margin: 0;
+}
+
+ul {
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+li {
+    color: #7c7c7c;
+    font-size: 16px;
+    font-weight: 100;
+    height: 19px;
+    line-height: 1;
+    list-style: none;
+}
+
+.weather-summary {
+    padding-bottom: 20px;
+}
+
+.weather-summary-header {
+    padding-bottom: 20px;
+}
+
+.weather-detail-text {
+    color: #7c7c7c;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 20px;
+}
+
+.weather-app {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    border: 1px solid #dadde1;
+    padding: 20px 16px 24px 16px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 630px;
+}
+
+.weather-icon {
+    height: 64px;
+    width: 64px;
+    margin-right: 10px;
+    float: left;
+}
+
+.weather-unit-text-today {
+    color: #333;
+    float: left;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.weather-temp-today {
+    color: #333;
+    float: left;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 1;
+    padding-left: 10px;
+}
+
+.day-block {
+    float: left;
+    padding: 7px;
+    width: 12.5%;
+}
+
+.day-block-date {
+    color: #bababa;
+    text-align: center;
+}
+
+.day-block-image {
+    display: block;
+    margin: 0 auto;
+    max-height: 48px;
+    max-width: 48px;
+}
+
+.day-block-temps {
+    text-align: center;
+}
+
+.day-block-temp {
+    font-size: 13px;
+    line-height: 15px;
+    color: #7c7c7c;
+}
+
+.day-block--selected {
+    background-color: #fcfcfc;
+    border-radius: 1px;
+    border: 1px solid #e9e9e9;
+}
+
+.temperature {
+    color: rgb(33, 33, 33);
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.units {
+    position: relative;
+    top: -34px;
+}
+
+.search-form {
+    margin-bottom: 20px;
+}
