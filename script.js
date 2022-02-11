@@ -13,7 +13,7 @@ let root = "https://api.openweathermap.org";
 let apiKey = "0e0bdc81b41729dbd97352adacb8d445";
 
 function friendlyDay(dayNumber) {
-    let days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+    let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
     return days[dayNumber];
 }
 
